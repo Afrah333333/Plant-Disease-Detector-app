@@ -1,16 +1,24 @@
-# plant_disease
+# Plant Disease Predictor App
 
-A new Flutter project.
+  <img src="Screenshot (675).png" alt="App Screenshot" width="200" height="400">
 
-## Getting Started
+A flutter application that enables users to detect a certain plant disease providing details about the disease and solutions to users.
 
-This project is a starting point for a Flutter application.
+## sections
+it is divided into two main parts including main flutter app and fastapi:
+## Flutter App
+The main app where users can get predictions
 
-A few resources to get you started if this is your first Flutter project:
+<div style="display: flex; justify-content: space-between;">
+<img src="Screenshot (672).png" alt="App Screenshot" width="200" height="400">
+<img src="Screenshot (673).png" alt="App Screenshot" width="200" height="400">
+  <img src="Screenshot (674).png" alt="App Screenshot" width="200" height="400">
+  <img src="Screenshot (675).png" alt="App Screenshot" width="200" height="400">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## FastApi
+This part provides the model for prediction and responds to requests from the main app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; justify-content: space-between;">
+  <img src="Screenshot (677).png" alt="App Screenshot" width="200" height="400">
+</div>
